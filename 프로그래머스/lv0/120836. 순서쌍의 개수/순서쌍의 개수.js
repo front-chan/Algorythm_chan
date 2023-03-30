@@ -1,11 +1,12 @@
 function solution(n) {
     var answer = [];
     
-    for (let i = 1; i < n; i ++) {
+    for (let i = 1; i <= n; i ++) {
         if (n % i === 0) {
             answer.push(i)
-            // console.log()
+            console.log(answer)
         }
     }
-    return answer.length + 1;
+    
+    return answer.length;
 }
