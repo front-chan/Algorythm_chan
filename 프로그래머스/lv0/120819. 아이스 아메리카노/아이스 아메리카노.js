@@ -1,4 +1,9 @@
 function solution(money) {
+    return [Math.floor(money / 5500), money % 5500];
+}
+
+/*
+function solution(money) {
     // result 값을 담아줄 빈 배열을 생성한다.
     var answer = [];
     // 아이스 아메리카노 가격을 상수로 담아준다.
@@ -16,3 +21,4 @@ function solution(money) {
     
     return answer;
 }
+*/
