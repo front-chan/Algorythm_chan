@@ -1,7 +1,7 @@
 // 다른 사람 풀이
 function solution(money) {
     return [Math.floor(money / 5500), money % 5500];
-    // 소수점을 내림처리를 하고 money / 5500을 앞에 담아주고 money % 5500원으로 몫을 구해 뒤에 담아준다.
+    // 소수점을 내림처리를 하고 money / 5500을 앞에 담아주고 money % 5500원으로 나머지를 구해 뒤에 담아준다.
 }
 
 /*
