@@ -27,7 +27,7 @@ function solution(price) {
     //     answer = price - (price * 0.05);
     // }
     
-    // 코드 실행은 되지만 테스트는 실패
+    // 코드 실행 안됨 낮은 가격이 위쪽에 있어서 안됨
     // if (price >= 100000) {
     //     answer = price - price * 0.05;
     // } else if (price >= 300000) {
