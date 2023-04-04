@@ -11,3 +11,8 @@ function solution(n, t) {
     
     return answer[answer.length - 1];
 }
+
+// 신기했던 다른 사람 풀이
+// function solution(n, t) {
+//   return n << t;
+// }
